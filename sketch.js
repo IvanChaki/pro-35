@@ -3,7 +3,7 @@ var database, balloonposition;
 
 function preload(){
     database = firebase.database();
-    backgroundImg = loadImage("bg.png");
+    backgroundImg = loadImage("Hot Air Balloon-01.png");
     hotairballoon = loadAnimation("Hot Air Ballon-02.png", "Hot Air Ballon-03.png", "Hot Air Ballon-04.png")
 
 }
